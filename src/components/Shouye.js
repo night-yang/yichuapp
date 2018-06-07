@@ -3,7 +3,7 @@ import styled from "styled-components";
 import bannerimg from "../assets/images/banner.jpeg";
 class Shouye extends Component {
   render() {
-    const { articles, ponsers } = this.props;
+    const { articles } = this.props;
     return (
       <Wrapper>
         <header>
