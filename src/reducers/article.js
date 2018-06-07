@@ -1,6 +1,6 @@
 const articles = (state = [], action) => {
   switch (action.type) {
-    case "LOAD_ARTICLE":
+    case "LOAD_ARTICLES":
       return action.articles;
     default:
       return state;

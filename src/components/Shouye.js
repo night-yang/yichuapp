@@ -3,6 +3,7 @@ import styled from "styled-components";
 import bannerimg from "../assets/images/banner.jpeg";
 class Shouye extends Component {
   render() {
+    const { articles, ponsers } = this.props;
     return (
       <Wrapper>
         <header>
@@ -12,6 +13,10 @@ class Shouye extends Component {
           <div>
             <img src={bannerimg} alt="" />
           </div>
+          <nav>
+            <span>音乐</span> <span>播放</span> <span>文章</span>{" "}
+            <span>电台</span> <span>排行榜</span>
+          </nav>
         </section>
       </Wrapper>
     );
@@ -41,5 +46,13 @@ const Wrapper = styled.div`
         width: 100%;
       }
     }
+  }
+  nav {
+    margin: 1vh 0;
+    display: flex;
+    font-size: 18px;
+    line-height: 30px;
+    color: #333;
+    justify-content: space-around;
   }
 `;

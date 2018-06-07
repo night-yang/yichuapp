@@ -2,11 +2,13 @@
   "ponser": [
     {
       "id": "1",
-      "name": "一处精选"
+      "name": "一处精选",
+      "imgurl": "http://i4.bvimg.com/648735/a8ab936e550075b3.jpg"
     },
     {
       "id": "2",
-      "name": "毛毛"
+      "name": "毛毛",
+      "imgurl": "http://i4.bvimg.com/648735/48aeeea46e53f2df.jpg"
     }
   ]
 }
