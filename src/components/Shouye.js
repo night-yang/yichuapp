@@ -4,6 +4,23 @@ import bannerimg from "../assets/images/banner.jpeg";
 class Shouye extends Component {
   render() {
     const { articles } = this.props;
+    console.log(articles);
+    const articlesList = articles.map(t => (
+      <div key={t.id}>
+        <div>
+          <span>
+            {t.author}
+            <img src={t.authorimg} alt="" />
+          </span>
+          <div>
+            <div>
+              <h3>{t.tilte}</h3> <p>{t.body}</p>{" "}
+            </div>
+            <img src={t.picurl} alt="" />
+          </div>
+        </div>
+      </div>
+    ));
     return (
       <Wrapper>
         <header>
@@ -17,6 +34,7 @@ class Shouye extends Component {
             <span>音乐</span> <span>播放</span> <span>文章</span>{" "}
             <span>电台</span> <span>排行榜</span>
           </nav>
+          <div>{articlesList}</div>
         </section>
       </Wrapper>
     );

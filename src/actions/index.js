@@ -4,7 +4,7 @@ export const loadArticles = () => {
     const uri =
       "https://raw.githubusercontent.com/night-yang/yichuapp/master/data/articles.json";
     axios.get(uri).then(res => {
-      const articles = res.data;
+      const articles = res.data.article;
       dispatch({ type: "LOAD_ARTICLES", articles });
     });
   };
