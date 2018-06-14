@@ -1,9 +1,17 @@
 import articles from "./article";
-import ponsers from "./ponser";
+import ponser from "./ponser";
+import replay from "./replay";
+import chat from "./chat";
+import topic from "./topic";
+import table from "./table";
 import { combineReducers } from "redux";
 const rootReducer = combineReducers({
   articles,
-  ponsers
+  ponser,
+  replay,
+  chat,
+  topic,
+  table
 });
 
 export default rootReducer;

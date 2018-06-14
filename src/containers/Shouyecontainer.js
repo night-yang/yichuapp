@@ -5,7 +5,6 @@ const HomeContainer = props => {
   return <Shouye {...props} />;
 };
 const mapStateToProps = state => ({
-  articles: state.articles,
-  ponsers: state.ponsers
+  articles: state.articles
 });
 export default connect(mapStateToProps)(HomeContainer);

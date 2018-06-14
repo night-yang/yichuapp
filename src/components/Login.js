@@ -28,7 +28,7 @@ class Login extends Component {
           </span>
           <span>找回密码</span>
         </Top>
-        <Logo src="http://i1.bvimg.com/648629/1757d0c86f0d057c.png" alt="" />
+        <Logo src="http://i1.bvimg.com/648735/69211c6cf19be6a2.jpg" alt="" />
         <Loginenter>
           <div>
             <span>

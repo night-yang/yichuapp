@@ -6,7 +6,6 @@ import { BrowserRouter as Router } from "react-router-dom";
 class App extends Component {
   componentDidMount() {
     this.props.loadArticles();
-    this.props.loadPonsers();
   }
 
   render() {
